@@ -1,0 +1,14 @@
+name = "learn_lean"
+description = "learn Lean 4"
+license = "Apache-2.0"
+licenseFiles = ["LICENSE"]
+
+[[require]]
+name = "batteries"
+scope = "leanprover-community"
+rev = "v4.16.0"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.16.0"
